@@ -1,0 +1,28 @@
+{
+  "development": {
+    "host": "localhost",
+    "username": "root",
+    "password": null,
+    "database": "ecomm_db",
+    "dialect": "mysql",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+  },
+  "test": {
+    "host": "localhost",
+    "username": "root",
+    "password": "596$?KFn#3lwM",
+    "database": "ecom_test_db",
+    "dialect": "mysql",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+  }
+}
